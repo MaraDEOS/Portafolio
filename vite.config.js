@@ -5,7 +5,7 @@ import { resolve } from 'path'
 const rootDir = import.meta.dirname;
 
 export default defineConfig({
-  base: '/Portafolio/',
+  base: './',
   plugins: [
     htmlPurge({
       content: [
