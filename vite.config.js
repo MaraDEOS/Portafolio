@@ -5,11 +5,11 @@ import { resolve } from 'path'
 const rootDir = import.meta.dirname;
 
 export default defineConfig({
-  root: 'src',
+  base: '/Portafolio/',
   plugins: [
     htmlPurge({
       content: [
-        resolve(rootDir, 'src/**/*.html'),
+        resolve(rootDir, '*.html'),
         resolve(rootDir, 'src/**/*.js')
       ],
       safelist: [
@@ -19,9 +19,5 @@ export default defineConfig({
         /light/
       ]
     })
-  ],
-  build: {
-    outDir: '../dist',
-    emptyOutDir: true
-  }
+  ]
 })

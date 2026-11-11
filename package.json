@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/MaraDEOS/Portafolio#readme",
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "less": "^4.9.1",
     "vite": "^8.3.7",
     "vite-plugin-purgecss": "^0.2.13"
