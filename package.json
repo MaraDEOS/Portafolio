@@ -1,0 +1,29 @@
+{
+  "name": "portafolio",
+  "version": "1.0.0",
+  "description": "Portafolio Profesional con Vite y LESS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaraDEOS/Portafolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/MaraDEOS/Portafolio/issues"
+  },
+  "homepage": "https://github.com/MaraDEOS/Portafolio#readme",
+  "devDependencies": {
+    "less": "^4.9.1",
+    "vite": "^8.3.7",
+    "vite-plugin-purgecss": "^0.2.13"
+  }
+}
